@@ -11,6 +11,7 @@
     "bootstrap": "^5.2.3",
     "core-js": "^3.6.5",
     "jquery": "^3.6.4",
+    "swiper": "^9.2.4",
     "vue": "^3.1.2",
     "vue-router": "^4.0.0-0"
   },
@@ -20,7 +21,8 @@
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-service": "^4.5.19",
     "@vue/compiler-sfc": "^3.0.0",
-    "sass": "^1.26.5",
+    "expose-loader": "^4.1.0",
+    "sass": "^1.62.0",
     "sass-loader": "^8.0.2"
   },
   "browserslist": [
