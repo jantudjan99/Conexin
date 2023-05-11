@@ -410,18 +410,18 @@
     </div>
     
   </div>
-  <div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets">
-    <span class="swiper-pagination-bullet swiper-pagination-prev" tabindex="0" role="button" aria-label="Go to slide 1"></span>
+  <div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets swiper-slide-active">
+    <span class="swiper-button-prev" tabindex="0" role="button" aria-label="Go to slide 1"></span>
     <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span>
     <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span>
-    <span class="swiper-pagination-bullet swiper-pagination-next" tabindex="0" role="button" aria-label="Go to slide 4"></span>
+    <span class="swiper-button-next" tabindex="0" role="button" aria-label="Go to slide 4"></span>
   </div>
  
-</div>
-
+  </div>
+  <!--
   <div id="pricing" class="pricing-tables">
     <div class="tables-left-dec">
-      <img src="../images/tables-left-dec.png" alt="">
+       <img src="../images/tables-left-dec.png" alt=""> 
     </div>
     <div class="tables-right-dec">
       <img src="../images/tables-right-dec.png" alt="">
@@ -507,7 +507,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> 
 
   <div id="video" class="our-videos section">
     <div class="videos-left-dec">
@@ -694,107 +694,193 @@
             </div>
         </div>
     </div>
-    <div class="job-wrap">
-	<div class="login-html">
-		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Vodoinstalater</label>
-		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Električar</label>
-    <!--<input id="tab-3" type="radio" name="tab" class="sign-in"><label for="tab-3" class="tab">Instalater grijanja i klimatizacije</label>
-		<input id="tab-4" type="radio" name="tab" class="sign-up"><label for="tab-4" class="tab">Zavarivač</label>-->
-		<div class="login-form">
-			<div class="sign-in-htm">
-                <form>
-                    <div class="row justify-content-between text-left">
-                        <div class="form-group col-sm-6 flex-column d-flex"> <label class="label-size">First name<span class="text-danger"> *</span></label> <input type="text" class="input-color" id="fname" name="fname" onblur="validate(1)"> </div>
-                        <div class="form-group col-sm-6 flex-column d-flex"> <label class="label-size">Last name<span class="text-danger"> *</span></label> <input type="text" class="input-color" id="lname" name="lname" onblur="validate(2)"> </div>
-                    </div>
-                    <div class="row justify-content-between text-left">
-                        <div class="form-group col-sm-6 flex-column d-flex"> <label class="label-size">Business email<span class="text-danger"> *</span></label> <input type="text" class="input-color" id="email" name="email" placeholder="" onblur="validate(3)"> </div>
-                        <div class="form-group col-sm-6 flex-column d-flex"> <label class="label-size">Phone number<span class="text-danger"> *</span></label> <input type="text" class="input-color" id="mob" name="mob" placeholder="" onblur="validate(4)"> </div>
-                    </div>
-                    <div class="row justify-content-between text-left">
-                        <div class="form-group col-sm-6 flex-column d-flex"> <label class="label-size">Job title<span class="text-danger"> *</span></label> <input type="text" class="input-color" id="job" name="job" placeholder="" onblur="validate(5)"> </div>
-                    </div>
-                    <div class="row justify-content-between text-left">
-                        <div class="form-group col-12 flex-column d-flex"> <label class="label-size">What would you be using Flinks for?<span class="text-danger"> *</span></label> <input type="text" class="input-color" id="ans" name="ans" placeholder="" onblur="validate(6)"> </div>
-                    </div>
-                    <div class="row justify-content-end">
-                        <div class="form-group col-sm-6"> <button type="submit" class="btn-block btn-primary">Request a demo</button> </div>
-                    </div>
-                    <input type="checkbox" name="ch" id="ch" />
-                    <label for="ch">
-                      Električar
-                      <div></div>
-                    </label>
-                    <input type="checkbox" name="ch" id="ch" />
-                    <label for="ch">
-                      Vodoinstalater
-                      <div></div>
-                    </label>
-                    <input type="checkbox" name="ch" id="ch" />
-                    <label for="ch">
-                      CheckBox
-                      <div></div>
-                    </label>
-                </form>
-                
-			</div>
-			<div class="sign-up-htm">
-				<div class="group">
-					<label for="user" class="label">Username</label>
-					<input id="user" type="text" class="input">
-				</div>
-				<div class="group">
-					<label for="pass" class="label">Password</label>
-					<input id="pass" type="password" class="input" data-type="password">
-				</div>
-				<div class="group">
-					<label for="pass" class="label">Repeat Password</label>
-					<input id="pass" type="password" class="input" data-type="password">
-				</div>
-				<div class="group">
-					<label for="pass" class="label">Email Address</label>
-					<input id="pass" type="text" class="input">
-				</div>
-				<div class="group">
-					<input type="submit" class="button" value="Sign Up">
-				</div>
-				<div class="hr"></div>
-        
-				<!--<div class="foot-lnk">
-					<label for="tab-1">Already Member?</a>
-				</div>-->
-			</div>
-      <!--<div class="vodoinstalater">
-                <form>
-                    <div class="row justify-content-between text-left">
-                        <div class="form-group col-sm-6 flex-column d-flex"> <label class="label-size">First name<span class="text-danger"> *</span></label> <input type="text" class="input-color" id="fname" name="fname" onblur="validate(1)"> </div>
-                        <div class="form-group col-sm-6 flex-column d-flex"> <label class="label-size">Last name<span class="text-danger"> *</span></label> <input type="text" class="input-color" id="lname" name="lname" onblur="validate(2)"> </div>
-                    </div>
-                    <div class="row justify-content-between text-left">
-                        <div class="form-group col-sm-6 flex-column d-flex"> <label class="label-size">Business email<span class="text-danger"> *</span></label> <input type="text" class="input-color" id="email" name="email" placeholder="" onblur="validate(3)"> </div>
-                        <div class="form-group col-sm-6 flex-column d-flex"> <label class="label-size">Phone number<span class="text-danger"> *</span></label> <input type="text" class="input-color" id="mob" name="mob" placeholder="" onblur="validate(4)"> </div>
-                    </div>
-                    <div class="row justify-content-between text-left">
-                        <div class="form-group col-sm-6 flex-column d-flex"> <label class="label-size">Job title<span class="text-danger"> *</span></label> <input type="text" class="input-color" id="job" name="job" placeholder="" onblur="validate(5)"> </div>
-                    </div>
-                    <div class="row justify-content-between text-left">
-                        <div class="form-group col-12 flex-column d-flex"> <label class="label-size">What would you be using Flinks for?<span class="text-danger"> *</span></label> <input type="text" class="input-color" id="ans" name="ans" placeholder="" onblur="validate(6)"> </div>
-                    </div>
-                    <div class="row justify-content-end">
-                        <div class="form-group col-sm-6"> <button type="submit" class="btn-block btn-primary">Request a demo</button> </div>
-                    </div>
-                </form>
-			</div>-->
-		</div>
-	</div>
-</div>
+    
     <div class="contact-dec">
       <img src="../images/contact-dec.png" alt="">
     </div>
     <div class="contact-left-dec">
-      <img src="../images/contact-left-dec.png" alt="">
+      <img src="../images/contact-left-dec2.png" alt="">
     </div>
   </div>
+  -->
+<div class="slider-container">
+  <div class="csslider infinity" id="slider1">
+    <input type="radio" name="slides" checked="checked" id="slides_1"/>
+    <input type="radio" name="slides" id="slides_2"/>
+    <input type="radio" name="slides" id="slides_3"/>
+    <input type="radio" name="slides" id="slides_4"/>
+    <input type="radio" name="slides" id="slides_5"/>
+    <input type="radio" name="slides" id="slides_6"/>
+    <ul>
+      <li>
+          <h1 class="slider-text li-title">VODOINSTALATER</h1>
+          <div class="parent-container d-flex">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                      <h2 class="slider-text">RADNO MJESTO:</h2>
+                      <h4 class="slider-text">ELEKTRIČAR/ELEKTRIČARKA</h4> 
+                      <p class="slider-text">Mjesto rada: Ivanec, Varaždinska županija</p>
+                      <p class="slider-text">Vrsta zaposlenja: Na određeno; novootvoreni poslovi</p>
+                      <p class="slider-text">Radno vrijeme: Puno radno vrijeme</p>
+                      <p class="slider-text">Naknada za prijevoz: U cijelosti</p>
+                      <p class="slider-text">Uvjeti na radnom mjestu: Terenski rad</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                      <h2 class="slider-text">POSLOPRIMAC:</h2>
+                      <p class="slider-text">Srednja škola 3 godine</p>
+                      <p class="slider-text">Srednja škola 4 godine</p>
+                      <p class="slider-text">Poželjan vozački ispit: Kategorija B</p>
+                      <p class="slider-text">Poželjno radno iskustvo 2-3 godine</p>
+                      <p class="slider-text">Ostale informacije:</p>
+                      <p class="slider-text">Poželjno znanje njemačkog i/ili engleskog jezika</p>
+                      <p class="slider-text">Opis poslova: izvođenje vodoinstalaterskih radova.</p>
+                      <p class="slider-text">U slučaju terenskog rada na području Republike Hrvatske osiguravamo zajednički smještaj.</p>
+                      <p class="slider-text">Postoji mogućnost stalnog zaposlenja.</p>
+                      <p class="slider-text">Za kandidiranje je potrebno dostaviti pismenu zamolbu sa životopisom.</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </li>
+      <li>
+          <h1 class="slider-text li-title">ELEKTRIČAR</h1>
+          <div class="parent-container d-flex">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                      <h2 class="slider-text">RADNO MJESTO:</h2>
+                      <h4 class="slider-text">ELEKTRIČAR/ELEKTRIČARKA</h4> 
+                      <p class="slider-text">Mjesto rada: Ivanec, Varaždinska županija</p>
+                      <p class="slider-text">Vrsta zaposlenja: Na određeno; novootvoreni poslovi</p>
+                      <p class="slider-text">Radno vrijeme: Puno radno vrijeme</p>
+                      <p class="slider-text">Naknada za prijevoz: U cijelosti</p>
+                      <p class="slider-text">Uvjeti na radnom mjestu: Terenski rad</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                      <h2 class="slider-text">POSLOPRIMAC:</h2>
+                      <p class="slider-text">Srednja škola 3 godine</p>
+                      <p class="slider-text">Srednja škola 4 godine</p>
+                      <p class="slider-text">Poželjan vozački ispit: Kategorija B</p>
+                      <p class="slider-text">Poželjno radno iskustvo 2-3 godine</p>
+                      <p class="slider-text">Ostale informacije:</p>
+                      <p class="slider-text">Poželjno znanje njemačkog i/ili engleskog jezika</p>
+                      <p class="slider-text">Opis poslova: izvođenje elektroinstalacijskih radova u zgradama.</p>
+                      <p class="slider-text">U slučaju terenskog rada na području Republike Hrvatske osiguravamo zajednički smještaj.</p>
+                      <p class="slider-text">Postoji mogućnost stalnog zaposlenja.</p>
+                      <p class="slider-text">Za kandidiranje je potrebno dostaviti pismenu zamolbu sa životopisom.</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </li>
+      <li>
+          <h1 class="slider-text li-title">INSTALATER/INSTALATERKA GRIJANJA I KLIMATIZACIJE </h1>
+          <div class="parent-container d-flex">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                      <h2 class="slider-text">RADNO MJESTO:</h2>
+                      <h4 class="slider-text">ELEKTRIČAR/ELEKTRIČARKA</h4> 
+                      <p class="slider-text">Mjesto rada: Ivanec, Varaždinska županija</p>
+                      <p class="slider-text">Vrsta zaposlenja: Na određeno; novootvoreni poslovi</p>
+                      <p class="slider-text">Radno vrijeme: Puno radno vrijeme</p>
+                      <p class="slider-text">Naknada za prijevoz: U cijelosti</p>
+                      <p class="slider-text">Uvjeti na radnom mjestu: Terenski rad</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                      <h2 class="slider-text">POSLOPRIMAC:</h2>
+                      <p class="slider-text">Srednja škola 3 godine</p>
+                      <p class="slider-text">Srednja škola 4 godine</p>
+                      <p class="slider-text">Poželjan vozački ispit: Kategorija B</p>
+                      <p class="slider-text">Poželjno radno iskustvo 2-3 godine</p>
+                      <p class="slider-text">Ostale informacije:</p>
+                      <p class="slider-text">Poželjno znanje njemačkog i/ili engleskog jezika</p>
+                      <p class="slider-text">Opis poslova: izvođenje elektroinstalacijskih radova u zgradama.</p>
+                      <p class="slider-text">U slučaju terenskog rada na području Republike Hrvatske osiguravamo zajednički smještaj.</p>
+                      <p class="slider-text">Postoji mogućnost stalnog zaposlenja.</p>
+                      <p class="slider-text">Za kandidiranje je potrebno dostaviti pismenu zamolbu sa životopisom.</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </li>
+      <li>Slide 4</li>
+      <li>Slide 5</li>
+      <li>Slide 6</li>
+    </ul>
+    <div class="arrows">
+      <label for="slides_1"></label>
+      <label for="slides_2"></label>
+      <label for="slides_3"></label>
+      <label for="slides_4"></label>
+      <label for="slides_5"></label>
+      <label for="slides_6"></label>
+      <label class="goto-first" for="slides_1"></label>
+      <label class="goto-last" for="slides_6"></label>
+    </div>
+    <!--
+    <div class="navigation"> 
+      <div>
+        <label for="slides_1"></label>
+        <label for="slides_2"></label>
+        <label for="slides_3"></label>
+        <label for="slides_4"></label>
+        <label for="slides_5"></label>
+        <label for="slides_6"></label>
+      </div>
+    </div>-->
+  </div>
+</div>
+  <div class="karijera" id="karijera">
+    <div class="job-wrap" >
+      <div class="login-html" >
+        <!--
+        <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Vodoinstalater</label>
+        <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Električar</label>-->
+        <!--<input id="tab-3" type="radio" name="tab" class="sign-in"><label for="tab-3" class="tab">Instalater grijanja i klimatizacije</label>
+        <input id="tab-4" type="radio" name="tab" class="sign-up"><label for="tab-4" class="tab">Zavarivač</label>-->
+        <div class="login-form">
+          <h1 class="job-form-title">Ispunite formu za određeno radno mjesto</h1>
+            <form ref="form" @submit.prevent="sendEmail" id="email-form">
+              <div class="row justify-content-between text-left">
+                <div class="form-group col-sm-6 flex-column d-flex"> <label class="label-size">Ime<span class="text-danger"> *</span></label> <input type="text" v-model="name" class="input-color" id="fname" name="name"> </div>
+                <div class="form-group col-sm-6 flex-column d-flex"> <label class="label-size">Prezime<span class="text-danger"> *</span></label> <input v-model="surname" type="text" class="input-color" id="lname" name="surname"> </div>
+              </div>
+              <div class="row justify-content-between text-left">
+                <div class="form-group col-sm-6 flex-column d-flex"> <label class="label-size">E-mail<span class="text-danger"> *</span></label> <input v-model="email" type="text" class="input-color" id="email" name="email" placeholder=""> </div>
+                <div class="form-group col-sm-6 flex-column d-flex"> <label class="label-size">Životopis<span class="text-danger"> *</span></label> <div class="input-color3"><div class="odabir">Odaberite datoteku <b>&#65291</b></div> <input type="file" id="mob" name="cv-pdf" placeholder=""/></div></div>
+              </div>
+              <div class="row justify-content-between text-left">
+                <div class="form-group col-sm-6 flex-column d-flex"> <label class="label-size">Radno mjesto<span class="text-danger"> *</span></label><select v-model="job_type" class="input-color2" placeholder="vodoinstalater" required aria-required="true"><option value="vodoinstalater">Vodoinstalater</option><option value="elektricar">Električar</option></select> </div>
+              </div>
+              <!--<div class="row justify-content-between text-left">
+                <div class="form-group col-12 flex-column d-flex"> <label class="label-size">What would you be using Flinks for?<span class="text-danger"> *</span></label> <input type="text" class="input-color" id="ans" name="ans" placeholder="" onblur="validate(6)"> </div>
+              </div>-->
+              <div class="row justify-content-end">
+                <div class="form-group col-sm-6"> <button type="submit" class="btn-block btn-primary">Pošaljite životopis</button> </div>
+              </div>
+            </form>
+                  
+        </div>
+      </div>
+    </div> 
+  </div> 
 
   <div class="footer-dec">
     <img src="../images/footer-dec.png" alt="">
@@ -808,7 +894,7 @@
             <div class="logo">
               <a href="#"><img src="../images/conexin-logo.png" alt="Onix Digital TemplateMo"></a>
             </div>
-            <a href="#">info@company.com</a>
+            <p>Conexin d.o.o. is business whose specialties are mediation, consulting, electric and plumbing installations.</p>
             <ul>
               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -818,16 +904,16 @@
           </div>
         </div>
         <div class="col-lg-3">
-          <div class="services footer-item">
-            <h4>Services</h4>
+          <div class="contact footer-item">
+            <h4>Contact</h4>
             <ul>
-              <li><a href="#">SEO Development</a></li>
-              <li><a href="#">Business Growth</a></li>
-              <li><a href="#">Social Media Managment</a></li>
-              <li><a href="#">Website Optimization</a></li>
+              <i class='fas fa-map-marker-alt' style='font-size:20px'></i><span>  Varaždinska 20, HR - 42240 Ivanec</span>
+              <br><br><i class='fas fa-phone' style='font-size:20px'></i><span>  385 42 302 048</span>
+              <br><br><i class="fa fa-envelope" style="font-size:20px"></i><span>  info@conexin.hr</span>
             </ul>
           </div>
         </div>
+        
         <div class="col-lg-3">
           <div class="community footer-item">
             <h4>Community</h4>
@@ -864,7 +950,8 @@
 </template>
 
 <script>
-import { Swiper as SwiperClass, Mousewheel } from 'swiper'
+import { Swiper as SwiperClass, Mousewheel } from 'swiper';
+import emailjs from 'emailjs-com';
 SwiperClass.use([Mousewheel]);
 
 export default {
@@ -872,7 +959,45 @@ export default {
     components: {
       Swiper
 	},
+  data: function(){
+    return {
+        name:'',
+        surname:'',
+        email:'',
+        job_type:''
+    }
+  },
   methods:{
+    sendEmail(event) {
+      event.preventDefault();
+      const SERVICE_ID = 'service_9e31ft6';
+      const TEMPLATE_ID = 'template_te1euiv';
+      const PUBLIC_KEY = 'igsuATKUNUMtbHulO';
+      let emailData = {
+          name: this.name,
+          surname: this.surname,
+          email: this.email,
+          job_type: this.job_type
+        }
+      try {
+        console.log("here?")
+        emailjs.send(SERVICE_ID, TEMPLATE_ID, emailData, PUBLIC_KEY).then(function(response) 
+        {
+          console.log('SUCCESS!', response.status, response.text);
+        }, 
+        function(error) 
+        {
+          console.log('FAILED...', error)
+        });
+        
+      } catch(error) {
+          console.log({error})
+      }
+      // Reset form field
+      this.name = '',
+      this.email = '',
+      this.message = ''
+    },
   },
   mounted(){
     const swiper = new Swiper('.blog-slider', {
@@ -900,13 +1025,17 @@ export default {
 * {
   box-sizing: border-box;
 }
+.swiper,
+swiper-container {
+  overflow:visible!important;
+}
 .swiper-slide {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .blog-slider {
-    width: 95%;
+    width: 75%;
   position: relative;
     max-width: 1000px;
     margin: auto;
@@ -969,13 +1098,14 @@ export default {
   
   &__img {
      // width: 40%;
-    width: 300px;
+    width: 375px;
     flex-shrink: 0;
-    height: 300px;
+    height: 325px;
     //background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
-    box-shadow: 4px 13px 30px 1px rgba(252, 56, 56, 0.2);
-    border-radius: 20px;
+    box-shadow: 4px 7px 15px 1px rgba(104, 104, 104, 0.106);
+    border-radius: 15px;
     transform: translateX(-80px);
+    margin-bottom:20px;
    
     overflow: hidden;
     
@@ -987,7 +1117,7 @@ export default {
     width: 100%;
     height: 100%;
     //background-image: linear-gradient(147deg, #fe8a39 0%, #fd3838 74%);
-      border-radius: 20px;
+      border-radius: 15px;
     opacity: 0.8;
 }
     
@@ -996,9 +1126,9 @@ export default {
     height: 100%;
     object-fit: cover;
       display: block;
-       opacity: 0;
-      border-radius: 20px;
-    transition: all .3s;
+       opacity: 0.05;
+      border-radius: 15px;
+    transition: all .2s;
     }
     
     
@@ -1068,7 +1198,7 @@ export default {
     padding: 15px 35px;
     border-radius: 50px;
     color: #fff;
-    box-shadow: 0px 14px 80px rgba(252, 56, 56, 0.4);
+    box-shadow: 0px 14px 80px rgba(97, 97, 97, 0.4);
     text-decoration: none;
     font-weight: 500;
         justify-content: center;
@@ -1117,14 +1247,13 @@ export default {
   display: block;
   border-radius: 10px;
   background: #062744;
-  display:none;
   opacity: 0.2;
     transition: all .3s;
     &-active {
       opacity: 1;
-      background: #fd3838;
+      background: #747474;
       height: 30px;
-      box-shadow: 0px 0px 20px rgba(252, 56, 56, 0.3);
+      box-shadow: 0px 0px 20px rgba(109, 109, 109, 0.3);
       
       @media screen and (max-width: 768px) {
         height: 11px;
@@ -1163,9 +1292,9 @@ export default {
 }
 .blog-slider__pagination .swiper-pagination-bullet-active {
     opacity: 1;
-    background: #fd3838;
+    background: #000000;
     height: 30px;
-    box-shadow: 0px 0px 20px rgba(252, 56, 56, 0.3);
+    box-shadow: 0px 0px 20px rgba(81, 81, 81, 0.3);
 }
 @media screen and (max-width: 768px)
 {
@@ -1187,8 +1316,34 @@ export default {
     padding-top:50px;
   }
 }
-
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 11px;
+  height: 11px;
+  display: block;
+  border-radius: 10px;
+  background: #062744;
+  opacity: 0.2;
+    transition: all .3s;
+    &-active {
+      opacity: 1;
+      background: #747474;
+      height: 30px;
+      box-shadow: 0px 0px 20px rgba(109, 109, 109, 0.3);
+      
+      @media screen and (max-width: 768px) {
+        height: 11px;
+        width: 30px;
+      }
+    }
+}
+/*
+.swiper-pagination-bullet:not(.swiper-pagination-bullet-active):not(.swiper-button-prev):not(.swiper-button-next) {
+  display: none;
+}*/
+
 //Input form
 .card {
   padding: 30px 40px;
@@ -1239,8 +1394,28 @@ button:focus{
 .input-color {
     border: none;
     padding: 15px 20px;
-    border-radius: 25px;
-    background: rgba(255,255,255,.1);
+    border-radius: 5px;
+    background: rgba(255,255,255,.2);
+    font-size:20px;
+    color:rgb(255, 255, 255);
+}
+.input-color2{
+  border: none;
+  background:#454647;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size:20px;
+  color:rgb(255, 255, 255);
+}
+.input-color3{
+  border: none;
+  background:#454647;
+  border-radius: 5px;
+  font-size:20px;
+  color:rgb(255, 255, 255);
+  height: 100%;
+  text-align:center;
+
 }
 .label-size{
   color: #aaa;

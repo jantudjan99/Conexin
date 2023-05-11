@@ -106,7 +106,7 @@
 
     WOW.prototype.customStyle = function(hidden, duration, delay, iteration) {
       var style;
-      style = hidden ? "visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;" : "visibility: visible;";
+      style = hidden ? "visibility: visible; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;" : "visibility: visible;";
       if (duration) {
         style += "-webkit-animation-duration: " + duration + "; -moz-animation-duration: " + duration + "; animation-duration: " + duration + ";";
       }

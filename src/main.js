@@ -9,5 +9,6 @@ import  './assets/vendor/jquery/jquery.min.js'
 import  './assets/js/owl-carousel.js'
 import  './assets/js/owl-carousel.js'
 import './assets/js/custom.js'
+import './assets/vendor/jquery/jquery.js'
 
 createApp(App).use(router).mount('#app')
